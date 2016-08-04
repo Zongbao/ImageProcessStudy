@@ -1,0 +1,35 @@
+﻿生成启动时间为 2016/8/4 17:44:15。
+     1>项目“D:\01_Study\00_ImageProcess\00_Exercise\ModuleVerificationToolV1.0\ModuleVerificationToolV1.0\ModuleVerificationToolV1.0.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\ModuleVerificationToolV1.0.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\ModuleVerificationToolV1.0.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ModuleVerificationToolV1.0Dlg.cpp
+         ModuleVerificationToolV1.0Dlg.cpp
+     1>d:\01_study\00_imageprocess\00_exercise\moduleverificationtoolv1.0\moduleverificationtoolv1.0\moduleverificationtoolv1.0dlg.cpp(288): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+       ResourceCompile:
+         所有输出均为最新。
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\01_Study\00_ImageProcess\00_Exercise\ModuleVerificationToolV1.0\Debug\ModuleVerificationToolV1.0.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\ModuleVerificationToolV1.0.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\01_Study\00_ImageProcess\00_Exercise\ModuleVerificationToolV1.0\Debug\ModuleVerificationToolV1.0.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\01_Study\00_ImageProcess\00_Exercise\ModuleVerificationToolV1.0\Debug\ModuleVerificationToolV1.0.lib" /MACHINE:X86 Debug\ModuleVerificationToolV1.0.res
+         Debug\ModuleVerificationToolV1.0.exe.embed.manifest.res
+         Debug\LoadRawDlg.obj
+         Debug\ModuleVerificationToolV1.0.obj
+         Debug\ModuleVerificationToolV1.0Dlg.obj
+         Debug\MyronFunctionLib.obj
+         Debug\stdafx.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\ModuleVerificationToolV1.0.exe.embed.manifest" /manifest Debug\ModuleVerificationToolV1.0.exe.intermediate.manifest "D:\Program Files\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         ModuleVerificationToolV1.0.vcxproj -> D:\01_Study\00_ImageProcess\00_Exercise\ModuleVerificationToolV1.0\Debug\ModuleVerificationToolV1.0.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\ModuleVerificationToolV1.0.unsuccessfulbuild”。
+         正在对“Debug\ModuleVerificationToolV1.0.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\01_Study\00_ImageProcess\00_Exercise\ModuleVerificationToolV1.0\ModuleVerificationToolV1.0\ModuleVerificationToolV1.0.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.36
