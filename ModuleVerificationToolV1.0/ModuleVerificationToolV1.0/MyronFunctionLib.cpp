@@ -6,6 +6,7 @@
 //History:
 //	2016/05/25	Myron	First Release
 //	2016/07/27			Add Optical Center Verification
+//	2016/08/04			Add MTK unpacked Raw decode
 *********************************************************************/
 #include "stdafx.h"
 #include "MyronFunctionLib.h"
@@ -166,7 +167,7 @@ void ReadMipi10bitRaw( CString fileName, int inwidth, int inheight )
 
 //Myron add
 //20160804
-//Read MTK Raw
+//Read MTK unpacked 10bit Raw
 //==================================================================
 void ReadUnpackedRaw( CString fileName, int inwidth, int inheight )
 {
@@ -186,7 +187,7 @@ void ReadUnpackedRaw( CString fileName, int inwidth, int inheight )
 	rawFile.Close();
 
 	for( int m = 0,i = 0; i < inheight; ++i )
-		for( int j = 0; j < lineByte; ++j )
+		for( int j = 0; j < lineByte/2; ++j )
 		{
 			temp_result_8bit[m] = (temp_original_10bit[i*lineByte+2*j]>>2) | ((temp_original_10bit[i*lineByte+2*j+1]&0x03)<<6) ;
 			m++;

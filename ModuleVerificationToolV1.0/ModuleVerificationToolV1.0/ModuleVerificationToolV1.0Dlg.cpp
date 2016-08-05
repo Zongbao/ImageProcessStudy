@@ -245,13 +245,23 @@ void CModuleVerificationToolV10Dlg::OnFileOpen()
 			TRACE("This format is not supported!\n");
 		break;
 	case 2:
-		ReadUnpackedRaw( strPathName, width, height );
+		if( pixelBits == 8 )
+		{
+			ReadMipi8bitRaw( strPathName, width, height );
+			TRACE("This format is unpacked 8bit raw! \n");			
+		}
+		else if( pixelBits == 10 )
+		{
+			ReadUnpackedRaw( strPathName, width, height );
+			TRACE("This format is unpacked 10bit! \n");
+		}
+		else
+			TRACE("This format is unpacked 10bit!\n");
 		break;
 	default:
 		TRACE("This format is not supported!\n");
 		break;
 	}
-//	ReadMipi10bitRaw( strPathName, width, height );
 	Demosaic_raw_to_rgb( rawBuf, width, height, bpattern );
 	CString bmpfile ("result.bmp", 10);
 	SaveBmp( bmpfile, rgbBuf, width, height, 24);

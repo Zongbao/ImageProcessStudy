@@ -1,18 +1,118 @@
-﻿生成启动时间为 2016/8/4 17:44:15。
-     1>项目“D:\01_Study\00_ImageProcess\00_Exercise\ModuleVerificationToolV1.0\ModuleVerificationToolV1.0\ModuleVerificationToolV1.0.vcxproj”在节点 2 上(build 个目标)。
+﻿生成启动时间为 2016/8/5 8:24:09。
+     1>项目“D:\05_Git\Git\workspace\ImageProcessStudy\ModuleVerificationToolV1.0\ModuleVerificationToolV1.0\ModuleVerificationToolV1.0.vcxproj”在节点 2 上(build 个目标)。
      1>InitializeBuildStatus:
          正在创建“Debug\ModuleVerificationToolV1.0.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
        ClCompile:
          所有输出均为最新。
-         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\ModuleVerificationToolV1.0.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ModuleVerificationToolV1.0Dlg.cpp
-         ModuleVerificationToolV1.0Dlg.cpp
-     1>d:\01_study\00_imageprocess\00_exercise\moduleverificationtoolv1.0\moduleverificationtoolv1.0\moduleverificationtoolv1.0dlg.cpp(288): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\ModuleVerificationToolV1.0.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt MyronFunctionLib.cpp
+         MyronFunctionLib.cpp
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(44): warning C4101: “packed_cnt”: 未引用的局部变量
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(132): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(223): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(229): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(230): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(240): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(258): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(263): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(268): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(269): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(278): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(285): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(286): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(294): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(295): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(302): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(314): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(315): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(320): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(322): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(330): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(332): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(337): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(338): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(372): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(377): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(378): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(391): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(405): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(412): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(418): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(419): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(429): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(433): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(434): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(444): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(445): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(449): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(464): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(465): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(469): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(471): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(479): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(481): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(485): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(486): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(533): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(538): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(539): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(545): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(551): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(552): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(561): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(566): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(567): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(573): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(579): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(580): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(588): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(589): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(595): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(596): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(604): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(611): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(612): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(624): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(626): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(630): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(631): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(641): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(642): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(646): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(648): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(684): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(689): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(690): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(696): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(702): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(703): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(712): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(717): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(718): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(724): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(730): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(731): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(739): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(740): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(746): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(747): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(755): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(762): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(763): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(775): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(777): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(781): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(782): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(792): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(793): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(797): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(799): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>d:\05_git\git\workspace\imageprocessstudy\moduleverificationtoolv1.0\moduleverificationtoolv1.0\myronfunctionlib.cpp(943): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
        ResourceCompile:
          所有输出均为最新。
        ManifestResourceCompile:
          所有输出均为最新。
        Link:
-         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\01_Study\00_ImageProcess\00_Exercise\ModuleVerificationToolV1.0\Debug\ModuleVerificationToolV1.0.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\ModuleVerificationToolV1.0.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\01_Study\00_ImageProcess\00_Exercise\ModuleVerificationToolV1.0\Debug\ModuleVerificationToolV1.0.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\01_Study\00_ImageProcess\00_Exercise\ModuleVerificationToolV1.0\Debug\ModuleVerificationToolV1.0.lib" /MACHINE:X86 Debug\ModuleVerificationToolV1.0.res
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\05_Git\Git\workspace\ImageProcessStudy\ModuleVerificationToolV1.0\Debug\ModuleVerificationToolV1.0.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\ModuleVerificationToolV1.0.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\05_Git\Git\workspace\ImageProcessStudy\ModuleVerificationToolV1.0\Debug\ModuleVerificationToolV1.0.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\05_Git\Git\workspace\ImageProcessStudy\ModuleVerificationToolV1.0\Debug\ModuleVerificationToolV1.0.lib" /MACHINE:X86 Debug\ModuleVerificationToolV1.0.res
          Debug\ModuleVerificationToolV1.0.exe.embed.manifest.res
          Debug\LoadRawDlg.obj
          Debug\ModuleVerificationToolV1.0.obj
@@ -24,12 +124,12 @@
          所有输出均为最新。
        LinkEmbedManifest:
          所有输出均为最新。
-         ModuleVerificationToolV1.0.vcxproj -> D:\01_Study\00_ImageProcess\00_Exercise\ModuleVerificationToolV1.0\Debug\ModuleVerificationToolV1.0.exe
+         ModuleVerificationToolV1.0.vcxproj -> D:\05_Git\Git\workspace\ImageProcessStudy\ModuleVerificationToolV1.0\Debug\ModuleVerificationToolV1.0.exe
        FinalizeBuildStatus:
          正在删除文件“Debug\ModuleVerificationToolV1.0.unsuccessfulbuild”。
          正在对“Debug\ModuleVerificationToolV1.0.lastbuildstate”执行 Touch 任务。
-     1>已完成生成项目“D:\01_Study\00_ImageProcess\00_Exercise\ModuleVerificationToolV1.0\ModuleVerificationToolV1.0\ModuleVerificationToolV1.0.vcxproj”(build 个目标)的操作。
+     1>已完成生成项目“D:\05_Git\Git\workspace\ImageProcessStudy\ModuleVerificationToolV1.0\ModuleVerificationToolV1.0\ModuleVerificationToolV1.0.vcxproj”(build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:01.36
+已用时间 00:00:00.76
